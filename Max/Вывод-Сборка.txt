@@ -1,0 +1,26 @@
+﻿Сборка начата…
+1>------ Сборка начата: проект: Прикол 1, Конфигурация: Debug x64 ------
+1>Прикол 1.cpp
+1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(1034,54): error C2794: reference: не является прямым или косвенным базовым классом для "std::iterator_traits<_BidIt>"
+1>        with
+1>        [
+1>            _BidIt=char
+1>        ]
+1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6195,62): message : выполняется компиляция ссылки на экземпляр псевдоним шаблон функции "std::_Iter_ref_t<_BidIt>"
+1>        with
+1>        [
+1>            _BidIt=char
+1>        ]
+1>C:\Users\Acer\Desktop\C++\Прикол 1\Прикол 1.cpp(16,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::reverse<char>(const _BidIt,const _BidIt)"
+1>        with
+1>        [
+1>            _BidIt=char
+1>        ]
+1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6195,62): error C2938: "std::_Iter_ref_t": не удалось специализировать шаблон псевдонима
+1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6197,50): error C3203: "is_volatile": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Trait", требуется действительный тип
+1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6197,9): error C3203: "_Is_trivially_swappable": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Traits", требуется действительный тип
+1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6221,14): error C2100: недопустимое косвенное обращение
+1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6221,24): error C2100: недопустимое косвенное обращение
+1>Сборка проекта "Прикол 1.vcxproj" завершена с ошибкой.
+========== Сборка: успешно выполнено — 0 , со сбоем — 1, в актуальном состоянии — 0, пропущено — 0 ==========
+========== Сборка запущено в 9:38, заняло 05,044 с ==========

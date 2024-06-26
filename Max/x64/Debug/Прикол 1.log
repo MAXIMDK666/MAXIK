@@ -1,0 +1,3 @@
+﻿  Прикол 1.cpp
+C:\Users\Acer\Desktop\C++\Прикол 1\Прикол 1.cpp(14,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Прикол 1.vcxproj -> C:\Users\Acer\Desktop\C++\Прикол 1\x64\Debug\Прикол 1.exe
